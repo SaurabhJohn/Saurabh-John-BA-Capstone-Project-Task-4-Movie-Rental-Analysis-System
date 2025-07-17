@@ -1,0 +1,17 @@
+Task 4 - Project: Movie Rental Analysis System
+
+This project focuses on performing OLAP-based analysis on a movie rental system using PostgreSQL or Amazon Redshift. A single consolidated table, rental_data, is created with key information about rentals such as movie genre, customer ID, rental and return dates, and rental fee.
+
+The goal is to explore multidimensional analysis through OLAP operations including:
+
+    Drill Down from genre level to movie level
+
+    Rollup to summarize rental fees by genre and overall
+
+    Cube to analyze rental totals across all combinations of genre, date, and customer
+
+    Slice to extract only "Action" genre rentals
+
+    Dice to filter rentals of specific genres within a recent time frame
+
+This project showcases how OLAP operations can be applied in SQL to derive insights from structured transactional data, providing a powerful toolset for data warehousing and reporting.
