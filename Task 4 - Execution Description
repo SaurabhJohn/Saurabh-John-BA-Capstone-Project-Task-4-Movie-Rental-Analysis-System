@@ -1,0 +1,25 @@
+###Movie Rental Analysis System (SQL Project)
+
+-This project is a SQL-based Movie Rental Analysis System developed using PostgreSQL (or Amazon Redshift). It uses OLAP operations to perform multidimensional analysis of movie rental data such as trends, genre-wise revenues, and customer behavior.
+
+-The database consists of one main table:
+
+    **rental_data**: Captures rental transactions including movie ID, customer ID, genre, rental and return dates, and rental fees.
+
+What I've Done in This Project:
+
+    -Created the rental_data table with relevant columns and appropriate data types.
+
+    -Inserted 15 realistic rental records covering various genres, dates, and customers.
+
+    -Performed OLAP operations with SQL queries to:
+
+        -Drill Down: Analyze rentals from genre to individual movie level.
+
+        -Rollup: Summarize total rental fees by genre and overall.
+
+        -Cube: Analyze total rental fees across combinations of genre, rental date, and customer.
+
+        -Slice: Extract rental records only from the 'Action' genre.
+
+        -Dice: Retrieve rentals where genre is 'Action' or 'Drama' and rental date is within the last 3 months.
